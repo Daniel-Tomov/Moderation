@@ -8,6 +8,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 
+	public chatList = 
+	
 	public void onEnable() {
 		this.getServer().getPluginManager().registerEvents(new Events(this), this);
 		getCommand("moderation").setExecutor(new Cmd(this));
