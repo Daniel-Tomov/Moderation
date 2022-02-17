@@ -1,0 +1,8 @@
+name: Moderation
+version: 1.0
+main: me.cageydinosaur.moderation.Main
+api-version: 1.18
+commands:
+  moderation:
+    usage: /moderation
+    description: Command for Moderation

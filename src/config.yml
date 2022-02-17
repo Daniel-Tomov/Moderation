@@ -1,0 +1,13 @@
+#Send the message to the player ({usedWord} replaces the word in the chat message):
+playerMessage: "&eYou have used a blacklisted phrase {usedWord}"
+
+#Sends a message to every player who has the permission moderation.viewmessage. 
+#The message contains the player's name and the word they used.
+#Use {player} to replace for the player's name and {usedWord} to replace for the word
+#they used.
+adminMessage: "&e{player} used an illegal word {usedWord}"
+#list the blocked words here:
+blockedWords:
+ - you suck
+ - git gud
+ - f* you
